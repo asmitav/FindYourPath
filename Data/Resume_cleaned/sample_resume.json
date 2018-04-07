@@ -1,0 +1,60 @@
+{
+			"userID": "Nick",
+			"Experience": {
+				"Job1": {
+					"designation": "analyst",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				},
+				"Job2": {
+					"designation": "< description >",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				}
+			},
+			"Education": {
+				"Education1": {
+					"School": "USF",
+					"course": "< course name >",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				},
+				"Education2": {
+					"School": "< school name >",
+					"course": "< course name >",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				}
+			}
+		}
+{
+			"userID": "David",
+			"Experience": {
+				"Job1": {
+					"designation": "professor",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				}
+			},
+			"Education": {
+				"Education1": {
+					"School": "SFSU",
+					"course": "< course name >",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				},
+				"Education2": {
+					"School": "< school name >",
+					"course": "< course name >",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				},
+				"Education3": {
+					"School": "< school name >",
+					"course": "< course name >",
+					"start_date": "< date >",
+					"end_date": "< date >"
+				}
+
+			}
+		}
