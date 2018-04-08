@@ -9,7 +9,22 @@ input_file_name = '../Data/Resume_cleaned/sample_resume.json'
 
 
 def import_query(dbname, collection_name, input_file_name):
-    mongoimport_query = 'mongoimport --db ' + dbname + ' --collection ' + collection_name + ' ' + input_file_name
+    """produce mongodb import query for given database, collection,
+    and input file
+
+    input
+    -----
+    dbname: (str) name of database to connect to
+    collection_name: (str) name of collection within database
+    input_file_name: (str) name of input file
+
+    output
+    -----
+    mongoimport_query: fully-formed query for mongodb with given
+    database name, collection name, input file name
+    """
+    mongoimport_query = 'mongoimport --db ' + dbname + \
+                        ' --collection ' + collection_name + ' ' + input_file_name
     return mongoimport_query
 
 
@@ -26,3 +41,4 @@ mongoimport_query = import_query(dbname, collection_name, input_file_name)
 subprocess.call(mongoimport_query, shell=True)
 
 client.close()
+
